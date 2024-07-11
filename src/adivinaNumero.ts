@@ -1,3 +1,3 @@
 export function adivinaNumero(numeroSecreto: number, intento: number): string {
-    return ""
+    return numeroSecreto === intento ? "Correcto!" : "Incorrecto!"
 }
